@@ -1,0 +1,239 @@
+.upper_part {
+  position: relative;
+  height: 60vh;
+  background-color: powderblue;
+  /* display: flex; */
+  /* align-items: flex-start; */
+}
+.sky{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21rem;
+}
+.cloud_00{
+  margin-top:2rem ;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+
+}
+.cloud_1{
+  /* position: absolute; */
+  background-color: #fff;
+  height: 5rem;
+  width: 6rem;
+  border-radius: 5rem 5rem 0rem 0rem;
+  
+}
+.cloud_2{
+  /* position: absolute; */
+  background-color: #fff;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 6rem 8rem 0rem 9rem;
+}
+.cloud_3{
+  /* position: absolute; */
+  background-color: #fff;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 9rem 6rem 9rem 0rem;
+}
+.trees{
+  position: absolute;
+  bottom: 0rem;
+  /* margin-top: 4rem; */
+}
+.tree_1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20rem;
+}
+.head_00{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.leaf_00{
+  background-color: green;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 30rem;
+}
+.leaf_01{
+  background-color: darkgreen;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 30rem;
+}
+.trunk_00{background-color: brown;
+  height: 6rem;
+  width: 1rem;
+}
+.movements {
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_part {
+  height: 40vh;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.road_yellow_lines {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 9rem;
+}
+.yellow_line1 {
+  height: 1rem;
+  width: 15rem;
+  background-color: yellow;
+}
+.yellow_line2 {
+  height: 1rem;
+  width: 15rem;
+  background-color: yellow;
+}
+.yellow_line3 {
+  height: 1rem;
+  width: 15rem;
+  background-color: yellow;
+}
+.yellow_line4 {
+  height: 1rem;
+  width: 15rem;
+  background-color: yellow;
+}
+.full_body{
+  position: relative;
+  /* transform: translate(0rem, -10rem );
+  transition: transform 100ms ease-in-out; */
+}
+.top_body {
+  position: relative;
+  /* transform: rotateZ(-2deg);
+  transition: transform 100ms ease-in-out; */
+}
+.head {
+  position: absolute;
+  background-color: blue;
+  height: 6rem;
+  width: 10rem;
+  right: 60rem;
+  top: -10rem;
+  border-radius: 1rem;
+  z-index: 1;
+}
+.weapon{
+  /* background-color: aqua; */
+  position: absolute;
+  height: 1.2rem;
+  width: 30rem;
+  bottom: 7rem;
+  right: 45.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: rotate(6deg);
+  transition: transform 1000ms ease-in-out; */
+}
+.muzzel {
+  position: absolute;
+  background-color: yellow;
+  right: 5rem;
+  height: 2rem;
+  width: 3rem;
+}
+.barrel {
+  position: absolute;
+  background-color: red;
+  height: 1.2rem;
+  width: 15rem;
+  
+}
+.main_body_part {
+  z-index: 1;
+  position: absolute;
+  background-color: green;
+  right: 50rem;
+  bottom: 0rem;
+  height: 5rem;
+  width: 30rem;
+  border-radius: 600rem 600rem 20rem 20rem;
+}
+.bullet {
+  position: absolute;
+  /* background-color: yellow; */
+  right: -3rem;
+  bottom: 7rem;
+  height: 1.2rem;
+  width: 130rem;
+}
+.btn {
+  z-index: 3;
+  background-color: blueviolet;
+}
+.bullet_flying {
+  position: absolute;
+  background-color: yellow;
+  right: 20rem;
+  top: 7rem;
+  height: 1.2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  /* transform :translateX(100rem);
+  transition :transform 1700ms ease-in-out; */
+}
+.wheels {
+  position: absolute;
+  background-color: black;
+  border-radius: 10rem;
+  height: 5.7rem;
+  width: 28rem;
+  right: 51rem;
+  top: -3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.wheel_1 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 30rem;
+  background-color: #fff;
+}
+.wheel_2 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 30rem;
+  background-color: #fff;
+}
+.wheel_3 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 30rem;
+  background-color: #fff;
+}
+.wheel_4 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 30rem;
+  background-color: #fff;
+}
+.wheel_5 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 30rem;
+  background-color: #fff;
+}
